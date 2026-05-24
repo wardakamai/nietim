@@ -46,6 +46,7 @@ export default function Footer() {
                 { label: 'Home', path: '/' },
                 { label: 'About Us', path: '/about' },
                 { label: 'Our Services', path: '/services' },
+                { label: 'Transfer Services', path: '/transfer-services' },
                 { label: 'Products', path: '/products' },
                 { label: 'How It Works', path: '/how-it-works' },
                 { label: 'Compliance', path: '/compliance' },

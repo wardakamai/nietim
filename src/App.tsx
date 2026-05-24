@@ -12,6 +12,7 @@ import ProductsPage from './pages/ProductsPage';
 import EN590Page from './pages/products/EN590Page';
 import JetA1Page from './pages/products/JetA1Page';
 import D6Page from './pages/products/D6Page';
+import TransferServicesPage from './pages/TransferServicesPage';
 import HowItWorksPage from './pages/HowItWorksPage';
 import CompliancePage from './pages/CompliancePage';
 import ContactPage from './pages/ContactPage';
@@ -45,6 +46,7 @@ function AppLayout() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/products" element={<ProductsPage />} />
+            <Route path="/transfer-services" element={<TransferServicesPage />} />
             <Route path="/products/en590-diesel" element={<EN590Page />} />
             <Route path="/products/jet-a1" element={<JetA1Page />} />
             <Route path="/products/d6-fuel-oil" element={<D6Page />} />
